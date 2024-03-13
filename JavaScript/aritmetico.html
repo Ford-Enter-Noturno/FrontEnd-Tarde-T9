@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aritméticos</title>
+</head>
+<body>
+    <script>
+        // alert("Hello World!") //visualizar mensagens 
+        // prompt("Qual é o seu nome? ") //permite receber valores
+
+        //Entrada de dados
+        const anoAtual = 2024
+        // variável para receber o valor que a pessoa digitar no navegador
+        const nomePessoa = prompt("Informe o seu nome: ")
+        // variável para receber o valor que a pessoa digitar no navegador
+        //convertendo string para numero ( parseInt )
+        const anoNascimento = parseInt(prompt("Qual seu ano de nascimento ?"))
+
+        //processamento de dados
+        //fazendo o calculo com os valores recebidos no navegador
+        const calcIdade = anoAtual - anoNascimento
+
+        //saída de dados com o alert e o resultado do nosso processamento
+        alert(`A idade do(a) ${nomePessoa} é de: ${calcIdade} anos`)
+    </script>
+</body>
+</html>
